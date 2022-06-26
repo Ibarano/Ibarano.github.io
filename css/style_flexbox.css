@@ -1,0 +1,124 @@
+@import url("../webfonts/AGBEN11/stylesheet.css");
+.flex-container-header {
+	display: flex;
+	background-color: #003442;
+	width: 100%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+.flex-container-header h1 {
+	width: 84%;
+	color: hsla(0,0%,98%,1.00);
+	font-weight: normal;
+	text-align: center;
+	text-shadow: 5px 3px 11px hsla(17,76%,69%,1.00);
+	height: 148px;
+	font-family: "AGBEN11";
+	font-size: 2em;
+	font-style: normal;
+}
+.flex-container-footer {
+	display: flex;
+	width: 100%;
+	height: 43px;
+	background-color: #FECEA8;
+	justify-content: center;
+	align-items: center;
+}
+.flex-container-footer h5 {
+	width: 30%;
+	color: #317459;
+	text-align: center;
+	height: auto;
+}
+.flex-container-nav {
+	width: 100%;
+	display: flex;
+	background-color: #FECEA8;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 75px;
+}
+.flex-container-nav div a {
+	color: hsla(111,13%,52%,1.00);
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.3em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.flex-container-nav div a:hover {
+	font-size: 23px;
+	color: hsla(0,0%,99%,1.00);
+	background-color: #60A472;
+	border-radius: 6px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.flex-container-nav div {
+	width: 130px;
+	text-align: center;
+	height: auto;
+}
+.flex-container-main {
+	width: 100%;
+	height: auto;
+	display: flex;
+	background-color: #7EA38E;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: column;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	flex-direction: row;
+}
+.flex-container-main section {
+	background-color: hsla(0,0%,22%,1.00);
+	margin: 20px;
+	padding: 30px;
+	width: 20%;
+	color: hsla(146,17%,57%,1.00);
+}
+.flex-container-main section h2 {
+	font-family: ;
+	font-weight: lighter;
+	font-size: 2em;
+	margin-bottom: 10px;
+	font-family: "AGBEN11";
+}
+.flex-container-main section p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1em;
+}
+.animate__delay-3s {
+}
+.animate__repeat-3 {
+}
+.animate__slow {
+}
+.imagen_1 {
+	width: 100%;
+	height: auto;
+}
+.animate__delay-5s {
+}
+.animate__repeat-2 {
+}
+.animate__delay-2s {
+}
